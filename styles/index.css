@@ -57,17 +57,17 @@ body {
 
 .fade-in {
  opacity:0;
- -webkit-animation:fadeIn ease-in 2;
- -moz-animation:fadeIn ease-in 2;
- animation:fadeIn ease-in 2;
+ -webkit-animation:fadeIn ease-in 1;
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
 
  -webkit-animation-fill-mode:forwards;
  -moz-animation-fill-mode:forwards;
  animation-fill-mode:forwards;
 
- -webkit-animation-duration:2s;
- -moz-animation-duration:2s;
- animation-duration:2s;
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
 }
 
 .projects {

@@ -241,6 +241,12 @@ body {
   text-align: center;
 }
 
+.about h3 {
+  font-family: "Roboto";
+  margin-top: 0;
+  font-size: 2em;
+}
+
 .bio {
   display: flex;
   flex-direction: row;
@@ -299,6 +305,7 @@ body {
 small {
   color: #5b5f97;
   font-family: "Roboto";
+  padding-top: 1em;
 }
 
 .social-media ul {

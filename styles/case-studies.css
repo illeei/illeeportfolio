@@ -152,62 +152,25 @@ nav {
   font-family: "Roboto";
   text-align: left;
 }
+
 .text p {
   text-align: left;
   color: #494d77;
   line-height: 2em;
 }
 
-/*
-.title {
-  height: 100vh;
-  background-color: #FFFFFF;
+.up-images {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10vh;
-}
-
-.title h1 {
-  font-family: "Caveat Brush";
-  text-align: center;
-  font-size: 4em;
-  color: #ff6b6b;
-  margin-bottom: 0;
-}
-
-.title p {
-  font-family: "Roboto";
-  text-align: center;
-  margin: 0;
+  padding-top: 3em;
   width: 90vw;
-  line-height: 1.5em;
-  color: #494d77;
-}
-
-.title img {
-  width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media (min-width: 650px) {
-  .title p {
+  .up-images {
     width: 50vw;
   }
 }
-
-.text {
-  width: 100vw;
-  margin: auto;
-}
-
-.text h2 {
-  font-family: "Roboto";
-  color: #ff6b6b;
-}
-
-.text p {
-  text-align: left;
-}
-*/

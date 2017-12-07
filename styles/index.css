@@ -245,6 +245,7 @@ body {
   font-family: "Roboto";
   margin-top: 0;
   font-size: 2em;
+  line-height: 1.5em;
 }
 
 .bio {
@@ -265,7 +266,7 @@ body {
 .text {
   font-family: "Roboto";
   max-width: 80%;
-  font-size: 1.2em;
+  font-size: 1.15em;
   line-height: 1.75em;
   color: #494d77;
   padding: 1em;

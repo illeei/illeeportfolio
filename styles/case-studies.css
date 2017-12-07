@@ -12,7 +12,11 @@ nav {
   z-index: 100;
 }
 
-@media (min-width: 650px) {
+body {
+  margin: 0;
+}
+
+@media (min-width: 1000px) {
   nav {
     justify-content: center;
   }
@@ -32,7 +36,7 @@ nav {
   display: none;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .menu-items {
     display: flex;
     justify-content: center;
@@ -58,7 +62,7 @@ nav {
 
 .hamburger {
   z-index: 1000;
-  background-color: #FFFFFF;
+  background-color: #f1f2f2;
   color: #494d77;
   font-size: 35px;
   text-align: center;
@@ -67,7 +71,7 @@ nav {
   width: 50px;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .hamburger {
     display: none;
   }
@@ -85,7 +89,7 @@ nav {
   width: 70%;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .menu-items a {
     border-bottom: none;
     margin: 3em;
@@ -116,8 +120,16 @@ nav {
   justify-content: center;
   flex-direction: row;
   background-color: #FFFFFF;
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
 }
 
+@media (min-width: 1000px) {
+  .body {
+    width: 60%;
+  }
+}
 .title {
   text-align: center;
   margin-top: 10vh;
@@ -131,16 +143,10 @@ nav {
 
 .title p {
   font-family: "Roboto";
-  width: 85vw;
   margin: auto;
   color: #494d77;
   line-height: 2em;
-}
-
-@media (min-width: 650px) {
-  .title p {
-    width: 50vw;
-  }
+  font-size: 1.15em;
 }
 
 .title img {
@@ -151,13 +157,17 @@ nav {
   color: #ff6b6b;
   font-family: "Roboto";
   text-align: left;
-  width: 50%;
 }
 
 .text p {
   text-align: left;
   color: #494d77;
-  line-height: 2em;
+  font-size: 1.15em;
+  line-height: 1.75em;
+}
+
+.text a {
+  color: #ff6b6b;
 }
 
 .images {
@@ -170,10 +180,34 @@ nav {
   margin: 0 auto;
 }
 
-@media (min-width: 650px) {
+.images img {
+  margin: 1em;
+}
+
+@media (min-width: 1000px) {
   .images {
     width: 50vw;
   }
+}
+
+.mockups {
+  display: grid;
+  grid-template-columns: 100%;
+  max-width: 90vw;
+  margin-top: 1em;
+  grid-column-gap: 1em;
+  justify-items: center;
+}
+
+@media (min-width: 1000px) {
+  .mockups {
+    grid-template-columns: 50% 50%;
+    max-width: 90vw;
+  }
+}
+
+.mockups img {
+  padding: 1em;
 }
 
 .footer {

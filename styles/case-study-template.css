@@ -115,104 +115,24 @@ body {
    animation-duration:1s;
 }
 
-.body {
+.title {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  background-color: #FFFFFF;
-  max-width: 1200px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-@media (min-width: 1000px) {
-  .body {
-    width: 60%;
-  }
-}
-
-.title {
-  text-align: center;
-  margin-top: 10vh;
 }
 
 .title h1 {
   font-family: "Caveat Brush";
   color: #FF6B6B;
   font-size: 4em;
-}
-
-.title p {
-  font-family: "Roboto";
-  margin: auto;
-  color: #494d77;
-  line-height: 2em;
-  font-size: 1.15em;
-}
-
-.title img {
-  max-width: 100%;
-}
-
-.text h2 {
-  color: #ff6b6b;
-  font-family: "Roboto";
-  text-align: left;
-}
-
-.text p {
-  text-align: left;
-  color: #494d77;
-  font-size: 1.15em;
-  line-height: 1.75em;
-}
-
-.text a {
-  color: #ff6b6b;
-}
-
-.images {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 2em;
-  width: 90vw;
-  margin: 0 auto;
-}
-
-.images img {
-  margin: 1em;
-}
-
-@media (min-width: 1000px) {
-  .images {
-    width: 50vw;
-  }
-}
-
-.mockups {
-  display: grid;
-  grid-template-columns: 100%;
-  max-width: 90vw;
-  margin-top: 1em;
-  grid-column-gap: 1em;
-  justify-items: center;
-}
-
-@media (min-width: 1000px) {
-  .mockups {
-    grid-template-columns: 50% 50%;
-    max-width: 90vw;
-  }
-}
-
-.mockups img {
-  padding: 1em;
+  margin-top: 5em;
 }
 
 .footer {
   background-color: #5b5f97;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;

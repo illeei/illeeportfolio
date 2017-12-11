@@ -1,3 +1,7 @@
 $("#menu").click(function() {
-    $("#menu-items").toggleClass("open", 200);
+  $("#menu-items").addClass("open");
+});
+
+$("#menu-items a").click(function() {
+  $("#menu-items").removeClass("open");
 });

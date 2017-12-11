@@ -12,7 +12,7 @@ nav {
   z-index: 100;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   nav {
     justify-content: center;
   }
@@ -32,7 +32,7 @@ nav {
   display: none;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .menu-items {
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ nav {
   width: 50px;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .hamburger {
     display: none;
   }
@@ -89,7 +89,7 @@ body {
   width: 70%;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .menu-items a {
     border-bottom: none;
     margin: 3em;
@@ -243,10 +243,16 @@ body {
 
 .about h3 {
   font-family: "Roboto";
-  margin-top: 0;
+  margin-top: 1em;
   font-size: 2em;
-  line-height: auto;
+  line-height: 1.2em;
   margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  .about h3 {
+    margin-top: 0;
+  }
 }
 
 .bio {
@@ -274,7 +280,7 @@ body {
   padding-top: 0;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .text {
     max-width: 50%;
     padding: 1.5em;

@@ -8,7 +8,7 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 100;
 }
 
@@ -81,7 +81,8 @@ body {
   text-decoration: none;
   font-family: "Roboto";
   color: #494d77;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  letter-spacing: 2px;
   display: block;
   margin: 1em auto;
   padding: 1em;
@@ -97,8 +98,8 @@ body {
 }
 
 .hero {
-  background-color: #f1f2f2;
-  height: 100vh;
+  background-color: #ffffff;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +109,7 @@ body {
 .hero h1 {
   font-family: "Caveat Brush";
   color: #ff6b6b;
-  font-size: 6em;
+  font-size: 4em;
   margin-bottom: 0;
   text-align: center;
 }
@@ -116,11 +117,14 @@ body {
 .hero h2 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: 0;
   text-align: center;
   color: #494d77;
   letter-spacing: 3px;
+  border-bottom: 1px solid #ff6b6b;
+  padding-bottom: .5em;
+  max-width: 70%;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -142,153 +146,50 @@ body {
    animation-duration:1s;
 }
 
-.zigzag:before {
-  background:
-    linear-gradient(-45deg, transparent 16px, #f1f2f2 0),
-    linear-gradient(45deg, transparent 16px, #f1f2f2  0);
-  background-repeat: repeat-x;
-  background-position: left bottom;
-  background-size: 22px 32px;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 32px;
-}
-
-.zigzag::after {
-  background:
-		linear-gradient(-45deg, #f1f2f2 16px, red 16px, blue 16px,  transparent 0),
-		linear-gradient(45deg, #f1f2f2 16px, transparent 0);
-  background-position: left top;
-  background-repeat: repeat-x;
-  background-size: 22px 32px;
-  content: " ";
-  display: block;
-  width: 100%;
-  height: 32px;
-}
-
 .projects {
   height: auto;
   background-color: #5b5f97;
-}
-
-.projects h2 {
-  font-family: "Caveat Brush";
-  text-transform: uppercase;
-  font-size: 4em;
-  letter-spacing: 2px;
-  color: #FFFFFF;
-  font-weight: lighter;
-  padding-top: 70px;
-  margin: auto;
-  text-align: center;
+  padding-bottom: 3em;
 }
 
 .project-link {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.project {
-  display: relative;
+.projects h2 {
+  font-family: "Roboto";
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 1em;
+  margin: .5em auto;
   text-align: center;
 }
 
-.image {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  background-color: #f1f2f2;
+  margin: 1em;
+  padding: 1em;
 }
 
-.project:hover .image {
-  opacity: 0.3;
-}
-
-.project:hover {
-  opacity: 1;
+@media (min-width: 1000px) {
+  .project {
+    width: 40vw;
+  }
 }
 
 .project img {
   max-width: 100%;
-  max-height: 60vh;
-}
-
-.project h3 {
-  font-family: "Roboto";
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 0;
-  font-weight: lighter;
-}
-
-.about {
-  background-color: #f1f2f2;
-}
-
-.about h2 {
-  font-family: "Caveat Brush";
-  text-transform: uppercase;
-  font-size: 4em;
-  letter-spacing: 2px;;
-  color: #ff6b6b;
-  font-weight: lighter;
-  padding-top: 20px;
-  margin: auto;
-  text-align: center;
-}
-
-.about h3 {
-  font-family: "Roboto";
-  margin-top: 1em;
-  font-size: 2em;
-  line-height: 1.2em;
-  margin-bottom: 0;
-}
-
-@media (min-width: 1000px) {
-  .about h3 {
-    margin-top: 0;
-  }
-}
-
-.bio {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.headshot {
-  max-width: 80%;
-  max-height: 80vh;
-  padding-top: 1em;
-  text-align: center;
-}
-
-.text {
-  font-family: "Roboto";
-  max-width: 80%;
-  font-size: 1.15em;
-  line-height: 1.75em;
-  color: #494d77;
-  padding: 1em;
-  padding-top: 0;
-}
-
-@media (min-width: 1000px) {
-  .text {
-    max-width: 50%;
-    padding: 1.5em;
-  }
-}
-
-.text a {
-  color: #ff6b6b;
 }
 
 .contact {

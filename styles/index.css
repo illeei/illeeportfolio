@@ -203,7 +203,7 @@ body {
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #5b5f97;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -213,7 +213,7 @@ body {
 }
 
 small {
-  color: #5b5f97;
+  color: #ffffff;
   font-family: "Roboto";
   padding-top: 1em;
 }
@@ -228,6 +228,6 @@ small {
 }
 
 .social-media a {
-  color: #5b5f97;
+  color: #ffffff;
   padding: 10px;
 }

@@ -61,16 +61,16 @@ body {
 
 @media (min-width: 1000px) {
   .text {
-    width: 45vw;
+    max-width: 45vw;
     position: relative;
-    left: 15vw;
+    left: 20vw;
     top: -4em;
   }
 
   .headshot {
     width: 30vw;
     position: fixed;
-    left: 7em;
+    left: 10vw;
     top: 2.5em;
   }
 }

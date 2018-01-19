@@ -1,5 +1,6 @@
 .footer {
   background-color: #5b5f97;
+  width: 100vw;
 }
 
 small {
@@ -8,6 +9,10 @@ small {
 
 .social-media a {
   color: #ffffff;
+}
+
+body {
+  max-width: 1000px;
 }
 
 .about {
@@ -56,12 +61,17 @@ small {
 
 @media (min-width: 1000px) {
   .text {
-    margin: 0;
     width: 45vw;
+    position: relative;
+    left: 15vw;
+    top: -4em;
   }
 
   .headshot {
     width: 30vw;
+    position: fixed;
+    left: 7em;
+    top: 2.5em;
   }
 }
 .text a {

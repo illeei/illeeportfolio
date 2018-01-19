@@ -182,7 +182,8 @@ body {
   font-family: "Roboto";
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
+  margin-top: 1em;
 }
 
 .text h3 {
@@ -192,6 +193,8 @@ body {
   text-align: left;
   font-size: 1.2em;
   text-transform: uppercase;
+  margin-bottom: .5em;
+  margin-top: 1.5em;
 }
 
 .text p {

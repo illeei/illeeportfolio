@@ -122,9 +122,10 @@ body {
 }
 
 .title h1 {
-  font-family: "Caveat Brush";
+  font-family: "Roboto";
   color: #FF6B6B;
-  font-size: 4em;
+  font-size: 1.5em;
+  text-transform: uppercase;
   align-items: center;
   text-align: center;
   margin-top: 30vh;

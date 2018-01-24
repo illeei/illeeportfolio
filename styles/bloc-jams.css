@@ -1,0 +1,53 @@
+.title h1 {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  border: 1px solid #FF6B6B;
+  padding: .5em 0;
+  color: #FF6B6B;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.title h2 {
+  font-family: "Roboto";
+  color: #808080;
+  font-size: 1.5em;
+  line-height: 1.75em;
+  margin: center;
+  text-align: center;
+}
+
+.title img {
+  max-width: 100%;
+}
+
+.text p {
+  font-family: "Roboto";
+  text-align: center;
+  color: #454949;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  font-style: normal;
+  padding: 0;
+  margin: 2em auto;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #FF6B6B;
+  padding: 1em;
+  font-family: "Roboto";
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  width: 40%;
+  margin-top: 3em;
+  text-align: center;
+  margin: auto;
+}
+
+.btn a {
+  color: #ffffff;
+}

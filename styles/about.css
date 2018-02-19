@@ -1,6 +1,8 @@
 .footer {
   background-color: #5b5f97;
   width: 100vw;
+  position: fixed;
+  bottom: 0;
 }
 
 small {
@@ -34,22 +36,25 @@ body {
 }
 
 .headshot {
-  width: 50vw;
+  width: 80vw;
 }
 
 .text h3 {
-  color: #ffffff;
-  font-style: italic;
-  font-size: 1.3em;
+  /* color: #ffffff; */
+  font-size: 1.2em;
   margin-top: 0;
-  padding: .5em 1em;
-  background-color: #ff6b6b;
+  /* padding: .5em 1em; */
+  /* background-color: #ff6b6b;
   font-weight: lighter;
-  text-align: center;
+  text-align: center; */
+  font-family: "Roboto";
+  letter-spacing: .03em;
+  text-decoration: underline;
+  font-weight: lighter;
 }
 
 .text {
-  width: 90vw;
+  width: 80vw;
   font-family: "Roboto";
   text-align: left;
   color: #454949;
@@ -61,17 +66,17 @@ body {
 
 @media (min-width: 1000px) {
   .text {
-    max-width: 45vw;
+    max-width: 40vw;
     position: relative;
     left: 20vw;
     top: -4em;
   }
 
   .headshot {
-    width: 30vw;
+    width: 25vw;
     position: fixed;
-    left: 10vw;
-    top: 2.5em;
+    left: 15vw;
+    top: 7.5em;
   }
 }
 .text a {

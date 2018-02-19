@@ -25,7 +25,7 @@ body {
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 18vh;
   margin-bottom: 10vh;
 }
 
@@ -41,13 +41,8 @@ body {
 }
 
 .text h3 {
-  /* color: #ffffff; */
   font-size: 1.2em;
   margin-top: 0;
-  /* padding: .5em 1em; */
-  /* background-color: #ff6b6b;
-  font-weight: lighter;
-  text-align: center; */
   font-family: "Roboto";
   letter-spacing: .03em;
   text-decoration: underline;

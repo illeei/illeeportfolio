@@ -14,7 +14,7 @@
   color: #808080;
   font-size: 1.5em;
   line-height: 1.75em;
-  margin: center;
+  margin: 0 center;
   text-align: center;
 }
 
@@ -52,4 +52,8 @@
 
 .btn a {
   color: #ffffff;
+}
+
+.title img {
+  max-width: 80%;
 }

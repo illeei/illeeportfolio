@@ -9,7 +9,7 @@
   border: 1px solid #FF6B6B;
   padding: .5em 0;
   color: #FF6B6B;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .title h2 {
@@ -29,9 +29,8 @@
   text-decoration: none;
   display: block;
   width: 40%;
-  margin-top: 3em;
+  margin: 1.2em auto;
   text-align: center;
-  margin: auto;
 }
 
 .btn a {

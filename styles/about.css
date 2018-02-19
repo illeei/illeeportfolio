@@ -41,11 +41,11 @@ body {
 }
 
 .text h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-top: 0;
   font-family: "Roboto";
   letter-spacing: .03em;
-  text-decoration: underline;
+  font-style: italic;
   font-weight: lighter;
 }
 
